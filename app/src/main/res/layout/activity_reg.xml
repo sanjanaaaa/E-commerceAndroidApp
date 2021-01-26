@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bground"
+    android:orientation="vertical"
+    tools:context=".RegAct">
+
+    <EditText
+        android:id="@+id/reg_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_margin="20dp"
+        android:autofillHints=""
+        android:drawableEnd="@drawable/user"
+        android:drawableRight="@drawable/user"
+        android:ems="10"
+        android:hint="@string/enter_mobile_number"
+        android:inputType="phone"
+        android:textColor="#080808"
+        android:textColorHint="#000000" />
+
+
+    <EditText
+        android:id="@+id/reg_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:autofillHints=""
+        android:drawableRight="@drawable/password"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="#080808"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/reg_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:autofillHints=""
+        android:drawableRight="@drawable/password"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="#080808"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/reg_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:autofillHints=""
+        android:drawableRight="@drawable/user"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:textColor="#080808"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/reg_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:autofillHints=""
+        android:drawableRight="@drawable/user"
+        android:ems="10"
+        android:hint="Enter Address"
+        android:inputType="text"
+        android:textColor="#080808"
+        android:textColorHint="#000000" />
+
+    <TextView
+        android:id="@+id/reg_signup"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:gravity="center"
+        android:background="#20b2aa"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        />
+
+</LinearLayout>
+

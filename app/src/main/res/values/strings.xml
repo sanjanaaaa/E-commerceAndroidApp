@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SalesApp</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="ghee">Ghee</string>
+    <string name="_290">290</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
